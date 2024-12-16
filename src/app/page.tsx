@@ -4,8 +4,9 @@ import Hero from "@/components/hero";
 import CompanyLogos from "@/components/companyLogos";
 import FeaturedProducts from "@/components/feturedProduct";
 import TopCategories from "@/components/topCategories";
-import PopularStyle from "@/components/popularStyle";
 import OurProducts from "@/components/ourProducts";
+import Popular from "@/components/popular";
+
 
 
 
@@ -19,8 +20,9 @@ export default function Home() {
         <CompanyLogos />
         <FeaturedProducts />
         <TopCategories />
-        <PopularStyle />
+        <Popular />
         <OurProducts />
+        
 
       
 

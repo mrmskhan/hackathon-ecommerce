@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className="">
       {/* <!-- top bar --> */}
-      <div className="md:px-56 hidden text-gray-200 md:flex justify-between items-center px-4 py-2 bg-[#272343]">
+      <div className="md:px-56 hidden text-gray-200 md:flex justify-between items-center py-2 bg-[#272343]">
         <div className="text-sm flex">
           <FaCheck /> Free shipping on all orders over $50
         </div>
@@ -59,9 +59,9 @@ const Navbar = () => {
 
       {/* <!-- section3 menu and contact --> */}
       <div className="hidden md:px-56 md:flex bg-white px-4 py-3">
-        <div className="container mx-auto flex justify-between items-center">
+        <div className="container  mx-auto flex justify-between items-center ">
           {/* Links */}
-          <div className="flex space-x-6 font-thin text-gray-700">
+          <div className="flex space-x-8  text-gray-500 font-semibold text-[20px] ">
             <a href="/" className="hover:text-teal-600">
               Home
             </a>
@@ -79,7 +79,7 @@ const Navbar = () => {
             </a>
           </div>
           {/* contact */}
-          <div className=" text-gray-700">Contact: (808) 555-0111</div>
+          <div className=" text-gray-500 font-bold">Contact: (808) 555-0111</div>
         </div>
       </div>
 

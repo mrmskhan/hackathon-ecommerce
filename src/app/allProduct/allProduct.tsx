@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { CiShoppingCart } from "react-icons/ci";
 
+
 const products = [
   {
     title: "Library Stool Chair",

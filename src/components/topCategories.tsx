@@ -3,10 +3,10 @@ import Image from "next/image";
 
 const TopCategories = () => {
   return (
-    <section className="w-full px-4 py-[7rem] md:px-6">
+    <section className="w-full px-4 py-[5rem] sm:py-[6rem] md:px-6">
       <div className="mx-auto max-w-7xl">
-        <h2 className="text-3xl font-bold tracking-tight mb-8 pb-10 ">
-          Top categories
+        <h2 className="text-3xl font-bold tracking-tight mb-8 pb-10 text-left">
+          Top Categories
         </h2>
         <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {/* Left image */}
@@ -60,7 +60,7 @@ const TopCategories = () => {
             <div className="aspect-[4/3] w-full">
               <Image
                 src="/topCat3.png"
-                alt="desk Chair"
+                alt="Desk Chair"
                 width={424}
                 height={424}
                 className="object-cover transition-transform duration-300 group-hover:scale-105"
